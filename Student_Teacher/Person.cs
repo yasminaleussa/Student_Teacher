@@ -10,10 +10,10 @@ namespace Student_Teacher
 {
     class Person
     {
-        protected int Age;
+        protected int age;
         public void SetAge(int n)
         {
-             Age = n;
+             age = n;
         }
 
         public void Greet()

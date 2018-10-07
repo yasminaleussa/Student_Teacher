@@ -16,7 +16,7 @@ namespace Student_Teacher
 
         public void ShowAge()
         {
-            Console.WriteLine("My age is : " + Age + "years old");
+            Console.WriteLine("My age is : " + age + "years old");
         }
     }
 }
