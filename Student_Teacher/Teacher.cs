@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace Student_Teacher
 {
-    class Program
+    class Teacher : Person
     {
-        static void Main(string[] args)
+        private string _subject;
+        public void Explain()
         {
+            Console.WriteLine("Explanation begins... ");
         }
     }
 }
